@@ -37,7 +37,7 @@ This repository demonstrates file upload, streaming, and transaction handling in
 1. Clone the repository:
    ```sh
    git clone git@github.com:harcop/stream-file.git
-   cd file-upload
+   cd stream-file
    ```
 2. Install dependencies:
    ```sh
