@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Streaming Demo</title>
+  <style>
+    body { font-family: sans-serif; background: #111; color: white; text-align: center; }
+    video { width: 45%; margin: 10px; background: black; }
+    .container { display: flex; justify-content: center; gap: 20px; }
+    h2 { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Streaming vs Non-Streaming Demo</h1>
+  
+  <div class="container">
+    <div>
+      <h2>No Streaming</h2>
+      <video id="video1" controls></video>
+    </div>
+    <div>
+      <h2>Streaming</h2>
+      <video id="video2" controls></video>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('video1').src = '/no-stream';
+    document.getElementById('video2').src = '/stream';
+  </script>
+</body>
+</html>
