@@ -1,0 +1,24 @@
+{
+  "name": "file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Harcop Toluwap",
+  "license": "ISC",
+  "description": "File upload, streaming, and transaction API demo.",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:harcop/stream-file.git"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@fast-csv/format": "^5.0.5",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongoose": "^8.17.1"
+  }
+}
