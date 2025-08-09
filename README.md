@@ -25,6 +25,9 @@ This repository demonstrates file upload, streaming, and transaction handling in
   Contains transaction-related logic.
   - `index.js`: Script for handling transactions.
 
+  **Note:**  
+  The `transactions` folder is an API for the Fintrack app, which is maintained in a separate repository: `git@github.com:harcop/fintrack.git`. It provides endpoints and logic for display and exporting financial transactions.
+
 ## Getting Started
 
 ### Prerequisites
